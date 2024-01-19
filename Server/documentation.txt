@@ -1,0 +1,18 @@
+server.js is the main file to start the backend project 
+src folder all the backend js files in it
+
+src:-
+startup folder - consist of all the files to start the backend project
+routes folder - consist of all the routes
+controllers folder - consist of all the member function
+error folder - consist of all the error values
+model folder - consist of all the models for db
+
+
+API flow
+
+/api/support-agents [post] ---->  register new support agent
+
+/api/support-tickets [post] ---->  post new support ticket
+/api/support-tickets/resolve/:id [post] ----> resolve support ticket
+/api/support-tickets [get] ---->  get sorted support ticket data
